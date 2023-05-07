@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
+-->
+<html>
+    <head>
+        <script src="Board.js"></script>
+        <meta charset="UTF-8">
+        <title></title>
+    <style>
+        
+        body {
+            text-align: center;
+        }
+        div {
+            width: auto;
+            height: auto;
+            display: inline-block;
+        }
+        table {
+            margin-top: 150px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 30px;
+            
+        }
+        button{
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+        }
+        
+        
+    </style>
+    </head>
+
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <td style="border-bottom-color: transparent;">p1</td>
+                    <td><button id="0"></button></td>
+                    <td><button id="1"></button></td>
+                    <td><button id="2"></button></td>
+                    <td><button id="3"></button></td>
+                    <td><button id="4"></button></td>
+                    <td><button id="5"></button></td>
+                    <td style="border-bottom-color: transparent;"></td>
+                </tr>
+                <tr>
+                    <td style="border-top-color: transparent;"></td>
+                    <td><button id="11"></button></td>
+                    <td><button id="10"></button></td>
+                    <td><button id="9"></button></td>
+                    <td><button id="8"></button></td>
+                    <td><button id="7"></button></td>
+                    <td><button id="6"></button></td>
+                    <td style="border-top-color: transparent;">p2</td>
+                </tr>
+            </table>
+            <script>
+                Start();
+            </script>
+
+<!--            <script>
+              // Get references to the buttons with IDs 6 to 11
+              var btn6 = document.getElementById("6");
+              var btn7 = document.getElementById("7");
+              var btn8 = document.getElementById("8");
+              var btn9 = document.getElementById("9");
+              var btn10 = document.getElementById("10");
+              var btn11 = document.getElementById("11");
+
+              // Disable the buttons
+              btn6.disabled = true;
+              btn7.disabled = true;
+              btn8.disabled = true;
+              btn9.disabled = true;
+              btn10.disabled = true;
+              btn11.disabled = true;
+            </script>-->
+            
+        </div>
+    </body>
+</html>
